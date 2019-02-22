@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-const myElement = React.createElement("div", {}, "hola");
+const myElement = <div>Hola</div>;
+
 
 ReactDOM.render(myElement, document.getElementById('root'));
 
