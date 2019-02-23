@@ -1,13 +1,17 @@
 import React from 'react';
-import s from './navk.scss';
+import './Navk.scss';
+import logok2 from '../../img/logok2.svg';
 
 
 const nav = () => (
-<nav className={s.nav}>
-    <div>
-        <a href="#">
-            <p>hola</p>
+<nav className='nav'>
+    <div className="main-logo">
+        <a>
+            <img src={logok2} className="logo"></img>
         </a>
+    </div>
+    <div className="main-container">
+
     </div>
 </nav>);
 
